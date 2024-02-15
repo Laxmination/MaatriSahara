@@ -50,8 +50,8 @@ ul{
 
 ul li{
     list-style: none;
-    margin-left: 100px;
-    margin-top: 25px;
+    margin-left: 50px;
+    margin-top: 30px;
     font-size: 14px;
 
 }
@@ -73,7 +73,7 @@ ul li a:hover{
 .srch{
     font-size: inherit;
     width: 150px;
-    height: 30px;
+    height: 70px;
     background:transparent;
     border: 2px solid rgb(12, 163, 239);
     margin-top: 13px;
