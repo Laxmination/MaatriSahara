@@ -6,7 +6,8 @@
 
 .Main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,2,1,0.5)25%, rgba(0,2,1,0.5)25%),url(Screenshot.png);
+    background: linear-gradient(to top, rgba(0,2,1,0.5)25%, rgba(0,2,1,0.5)25%), url(Screenshot.png);
+    background-position: center;
     background-size: cover;
     height: 109vh;
 
