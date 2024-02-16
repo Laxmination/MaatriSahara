@@ -10,7 +10,8 @@
     background-position: center;
     background-size: cover;
     height: 109vh;
-    display: relative;
+    position: relative;
+    z-index: 5;
 
 }
 
@@ -21,11 +22,24 @@
     display: relative;
 }
 
+.contact-us{
+ position: absolute;
+    top: 28px;
+    right: 40px;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: skyblue;
+    font-size: 16px;
+    font-family: monospace;
+}
 .icon{
     width: auto;
     float: left;
     height: 50px;
     display: absolute;
+    border: 4px solid red;
 }
 
 .logo{
@@ -112,9 +126,6 @@ ul li a:hover{
 .srch:focus{
     outline: none;
 }
-.page{
-    display: relative;
-}
 
 .content{
     width: 1200px;
@@ -122,6 +133,9 @@ ul li a:hover{
     margin: auto;
     color: #fff;
     position: absolute;
+    top: 100px;
+
+    z-index: 10;
 }
 
 .content .par{
@@ -149,13 +163,13 @@ ul li a:hover{
 .form{
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top,rgba(15, 233, 226, 0.8)50%,rgba(5, 238, 223, 0.8)50%);
+    background: linear-gradient(to top,rgba(15, 233, 226, 0.8) 50%,rgba(5, 238, 223, 0.8) 50%);
     position: absolute;
     top: 150px;
-    left: 1100px;
+    right: 40px;
     border-radius: 10px;
     padding: 25px;
-    display: absolute;
+    z-index: 23423;
 }
 
 .form h2{
@@ -209,7 +223,7 @@ ul li a:hover{
 
 .bttn:hover{
     background-color: #f10797;
-    color:rgb(8, 173, 238);
+    color:white;
 }
 
 .bttn a{
@@ -227,7 +241,7 @@ ul li a:hover{
 
 .form .link a{
     text-decoration: none;
-    color: rgb(19, 208, 218);
+    color: white;
 }
 
 .liw{
@@ -244,7 +258,7 @@ ul li a:hover{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
@@ -258,7 +272,7 @@ ul li a:hover{
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color:rgb(6, 193, 245);
   }
   
   .dropdown:hover .dropdown-content {
