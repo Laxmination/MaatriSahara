@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('theme.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.8); /* Added a semi-transparent white background */
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.regis {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input label {
+    display: block;
+}
+
+.input input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bttn {
+    text-align: center; /* Center the button */
+}
+
+.bttn button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0b8ad9;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bttn button:hover {
+    background-color: #f10797;
+}
