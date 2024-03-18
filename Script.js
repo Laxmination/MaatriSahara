@@ -28,3 +28,4 @@ function login() {
         alert("An error occurred while trying to log in");
     });
 }
+
